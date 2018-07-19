@@ -940,9 +940,9 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 20px;
   font-size: 14px;
-  color: #222;
-  background: none;
-  border-bottom: 1px solid #222;
+  color: #fff;
+  background: #222;
+  border: 2px solid #222;
   text-decoration: none;
   border-radius: 0;
   transition-property: background-color;
@@ -1090,7 +1090,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: transparent;
+  background: url("../image/1111.jpg");
 }
 .header-inner {
   position: relative;
@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #613cff;
+  background: #ebffe2;
 }
 .links-of-blogroll {
   font-size: 13px;
