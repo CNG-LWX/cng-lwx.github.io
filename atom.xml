@@ -6,7 +6,7 @@
   <link href="https://cng-lwx.github.io/atom.xml" rel="self"/>
   
   <link href="https://cng-lwx.github.io/"/>
-  <updated>2022-01-21T08:49:59.483Z</updated>
+  <updated>2022-01-21T09:00:55.260Z</updated>
   <id>https://cng-lwx.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript去除特殊字符</title>
+    <link href="https://cng-lwx.github.io/2022/01/21/JavaScript%E5%8E%BB%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/"/>
+    <id>https://cng-lwx.github.io/2022/01/21/JavaScript%E5%8E%BB%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</id>
+    <published>2022-01-21T09:00:34.000Z</published>
+    <updated>2022-01-21T09:00:55.260Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="JavaScript" scheme="https://cng-lwx.github.io/categories/JavaScript/"/>
+    
+    
+    <category term="开发" scheme="https://cng-lwx.github.io/tags/%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="前端" scheme="https://cng-lwx.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>JS回调demo</title>
