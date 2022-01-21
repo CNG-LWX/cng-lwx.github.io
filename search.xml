@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>滚动条CSS样式</title>
+      <link href="/2022/01/21/%E6%BB%9A%E5%8A%A8%E6%9D%A1CSS%E6%A0%B7%E5%BC%8F/"/>
+      <url>/2022/01/21/%E6%BB%9A%E5%8A%A8%E6%9D%A1CSS%E6%A0%B7%E5%BC%8F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="滚动条CSS样式"><a href="#滚动条CSS样式" class="headerlink" title="滚动条CSS样式"></a>滚动条CSS样式</h1><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment">/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/</span></span><br><span class="line">::-webkit-scrollbar</span><br><span class="line">&#123;</span><br><span class="line">    width: <span class="number">0px</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">16px</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#F5F5F5</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*定义滚动条轨道 内阴影+圆角*/</span></span><br><span class="line">::-webkit-scrollbar-track</span><br><span class="line">&#123;</span><br><span class="line">    -webkit-box-shadow: inset <span class="number">0</span> <span class="number">0</span> <span class="number">6px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0.3</span>);</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#F5F5F5</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*定义滑块 内阴影+圆角*/</span></span><br><span class="line">::-webkit-scrollbar-thumb</span><br><span class="line">&#123;</span><br><span class="line">    border-radius: <span class="number">10px</span>;</span><br><span class="line">    -webkit-<span class="attribute">box-shadow</span>: inset <span class="number">0</span> <span class="number">0</span> <span class="number">6px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,.<span class="number">3</span>);</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#555</span>;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaScript去除特殊字符</title>
       <link href="/2022/01/21/JavaScript%E5%8E%BB%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/"/>
       <url>/2022/01/21/JavaScript%E5%8E%BB%E9%99%A4%E7%89%B9%E6%AE%8A%E5%AD%97%E7%AC%A6/</url>
