@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>JS回调demo</title>
+      <link href="/2022/01/21/JS%E5%9B%9E%E8%B0%83demo/"/>
+      <url>/2022/01/21/JS%E5%9B%9E%E8%B0%83demo/</url>
+      
+        <content type="html"><![CDATA[<h1 id="JS-回调Dome"><a href="#JS-回调Dome" class="headerlink" title="JS 回调Dome"></a>JS 回调Dome</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">downPdf</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line"> <span class="keyword">var</span> pageData = <span class="string">&#x27;pppp&#x27;</span>;</span><br><span class="line"> <span class="built_in">console</span>.log(<span class="string">&quot;进来了&quot;</span>);</span><br><span class="line"> <span class="keyword">var</span> infoHtml = <span class="built_in">document</span>.getElementById(<span class="string">&quot;infoHtml&quot;</span>);</span><br><span class="line"> a(<span class="string">&quot;参数&quot;</span>,<span class="function"><span class="keyword">function</span> (<span class="params">aa</span>) </span>&#123;</span><br><span class="line"> <span class="built_in">console</span>.log(aa);</span><br><span class="line"> <span class="built_in">console</span>.log(<span class="string">&quot;pageData-a-after:&quot;</span> + pageData);</span><br><span class="line"> b();</span><br><span class="line"> &#125;);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">a</span>(<span class="params">data,callback</span>) </span>&#123;</span><br><span class="line"> <span class="built_in">setTimeout</span>(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line"> <span class="keyword">var</span> pageData = <span class="string">&#x27;pppp-a&#x27;</span>;</span><br><span class="line"> <span class="keyword">var</span> aa =<span class="string">&quot;回调&quot;</span>;</span><br><span class="line"> <span class="built_in">console</span>.log(<span class="string">&quot;pageData-a-1000:&quot;</span> + pageData);</span><br><span class="line"> <span class="built_in">console</span>.log(data);<span class="comment">//参数</span></span><br><span class="line"> callback(aa)<span class="comment">//回调</span></span><br><span class="line"> &#125;, <span class="number">1000</span>);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">b</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line"> <span class="built_in">console</span>.log(<span class="string">&quot;pageData-b:&quot;</span> + pageData);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 开发 </tag>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>理cai</title>
       <link href="/2021/09/10/%E7%90%86cai/"/>
       <url>/2021/09/10/%E7%90%86cai/</url>
